@@ -1,0 +1,52 @@
+
+.home {
+	width: 102%;
+    height: auto;
+	position: fixed;
+	margin-left: -1%;
+	margin-top: -1%;
+}
+
+#logo {
+	width: auto;
+	height: auto;	
+	position:absolute;
+	z-index:4;
+	padding-top: 15%;
+	padding-left: 16%;
+	clear: both;
+	opacity: .65;
+}
+
+
+
+.box {
+	Width:102%;
+	Height: 45px;
+	position: absolute;
+	z-index:3;
+	opacity: .75;
+	margin-left: -1%;
+	margin-top: -1%;
+}
+
+.toptext {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+    font-size: intial;
+    z-index: 3;
+	
+	
+}
+#name {
+	position: absolute;
+	padding-left: 5%;
+	margin-top: -10px;
+	
+}
+
+#menu {
+	position: absolute;
+	padding-left: 90%;
+	margin-top: -10px;
+}

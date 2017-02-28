@@ -1,0 +1,38 @@
+#container {
+  height: 315px;
+  text-align: center; 
+  min-width: 600px;
+}
+#container div {
+  width: 560px;
+  height: 315px;
+  display: inline-block;
+  
+}
+#container:after {
+  content: '';
+  width: 100%; /* Ensures there are at least 2 lines of text, so justification works */
+  display: inline-block;
+}
+
+.vidinfo {	
+    width: 560px;
+    height: 315px;
+    background-color: lightgray;
+    margin-top: 0px;
+    margin-left: 2%;    
+    float: left;
+    overflow: auto;
+}
+
+li {
+	font-family: "Arial";
+    font-size: large;
+    line-height: 25x;
+    padding-left: 30px;
+	padding-right: 20px;
+    padding-top: 10x;
+    text-align: left;
+    font-size: medium;
+	padding-bottom: 10px;
+}
