@@ -44,11 +44,11 @@ td {
 }
 
 .menu {
-	position: absolute;
-	padding-left: 90%;
-	margin-top: 0px;
+	padding-top: 5px;
+	padding-right: 60px;
+    margin-top: 0px;
+    float: right;
 }
-
 .body {
 	margin: auto;
     width: 50%;
@@ -58,15 +58,15 @@ td {
 	/* border-radius: 5px; */
 }
 
-.box {
-	Width:102%;
-	Height: auto;
-	max-height: 45px;
+.header {
+	Width:100%;
+	Height: 30px;
 	position: absolute;
 	z-index:3;
-	opacity: .90;
-	margin: -1%;
-	
+    opacity: .90;
+    background-color: rgba(128, 128, 128, 0.90);
+    margin-top: -9px;
+    margin-left: -9px;
 }
 
 .toptext {
@@ -83,6 +83,7 @@ td {
     height: 30px;
     /* width: 100%; */
     z-index: 4;
+	clear: left;
 }
 
 .name_title {
@@ -188,4 +189,9 @@ transform: scale(1.1);
 
 body {
 	background: linear-gradient(#4099df, #1c4b70);
+}
+
+.logo img {
+	height: 30px;
+	margin-top: 5px;
 }
