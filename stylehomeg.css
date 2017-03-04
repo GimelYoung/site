@@ -155,12 +155,12 @@ table {
     border-color: #6f6868;
     border-radius: 9px;
     padding-top: 2px;
+	font-size: large;
 }
 
 li {
     font-family: "Arial";
-    text-align: left;
-    font-size: large;
+    text-align: left;    
     line-height: 25px;
     padding-top: 20px;
     margin: auto;
