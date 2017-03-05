@@ -12,16 +12,10 @@ td {
 }
 
 table {
-	width: 100%;
-	/* max-width: 1300px; */
-	background-color: rgb(193, 224, 254);
-    line-height: 30px;
-    border: solid;
-    margin: auto;
-	margin-bottom:10px;
-	padding-left: 10px;
-	padding-right: 10px;
-	clear: both;
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 20px;
+	color: #111010;
 }
 	
 .video {
@@ -50,7 +44,7 @@ table {
 }
 
 .p1 {
-	border-top-color: black;
+	border-top-color: rgb(37, 37, 37);
     border-left: solid;
     border-right: solid;
     border-top: solid;
@@ -58,24 +52,27 @@ table {
     border-top-width: 20px;
     border-top-left-radius: 13px;
     border-top-right-radius: 13px;
-    background-color: rgb(149, 245, 125);
-    margin: 10px 0 10px 0;
-	/* width: 99%;
-    max-width: 1294px; */
+	background-color: rgb(176, 234, 167);
+    margin: 100px 0 -15px 0;
     border-bottom: solid;
+    color: rgb(37, 37, 37);
 }
 
-h2 {
+.tablename {
 	font-size: xx-large;
-	padding-left: 10px;    
+	padding-left: 10px; 
+	color: black;	
+	font-weight:bold;
 }
 
 .p2 {
-	font-size: large;
-	padding-left:10px;
-	padding-right: 10px;
-	/* max-width: 1300px; */
-	font-weight: bold;
+	font-size: medium;
+    padding-left: 10px;
+    padding-right: 10px;
+    /* max-width: 1300px; */
+    font-weight: bold;
+    color: #111010;
+    padding-bottom: 20px;
 }
 
 .clearfix:after {
@@ -92,17 +89,16 @@ h2 {
 .clearfix { display: block; }
 /* close commented backslash hack */
 
-.box {
-	Width:102%;
-	Height: auto;
-	max-height: 45px;
-	position: absolute;
-	z-index:3;
-	opacity: .90;
-	margin-left: -1%;
-	margin-top: -1%;
+.header {
+    Width: 101%;
+    Height: 38px;
+    position: absolute;
+    z-index: 3;
+    opacity: .90;
+    background-color: rgba(128, 128, 128, 0.90);
+    margin-top: -9px;
+    margin-left: -9px;
 }
-
 
 .toptext {
 	font-family: Arial, Helvetica, sans-serif;
@@ -119,9 +115,10 @@ h2 {
 }
 
 .menu {
-	position: absolute;
-	padding-left: 90%;
-	margin-top: 0;
+	padding-top: 5px;
+	padding-right: 60px;
+    margin-top: 0px;
+    float: right;
 }
 
 .body {
@@ -136,31 +133,34 @@ h2 {
     height: 30px;
     /* width: 100%; */
     z-index: 4;
+	clear: left;
 }
 
 .container {
-    margin: auto;
-	width: 80%;
-	text-align: center;
+	margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
 }
 
 .vidinfo {	
     background-color: lightgray;
-    height: 350px;
-    width: 450px;
+    height: 400px;
+    width: 500px;
     overflow: hidden;
     /* clear: right; */
     margin-left: 3%;
     display: inline-block;
-	    border: solid;
+    border: solid;
     border-width: 1px;
-    border-color: .504c4c;
+    border-color: #6f6868;
+    border-radius: 9px;
+    padding-top: 2px;
+	font-size: large;
 }
 
 li {
     font-family: "Arial";
-    text-align: left;
-    font-size: large;
+    text-align: left;    
     line-height: 25px;
     padding-top: 20px;
     margin: auto;
@@ -210,4 +210,23 @@ body {
 	height: auto;
 	margin-left: -1%;
 	margin-top: -1%;
+}
+
+.logo img {
+	height: 30px;
+	margin-top: 14px;
+}
+
+.tablecontainer {
+	background-color: rgb(217, 224, 235);
+	border: solid;
+	margin-top: 30px;
+}
+
+
+.break {
+	border-bottom: solid;
+	margin-left: -9px;
+	clear: both;
+	border-width: 1px;
 }
